@@ -96,3 +96,7 @@ Users can link OTSS to employment, wage, or establishment data at the occupation
 If you use this data, please cite:
 
 > Genz, S., Gregory, T., & Lehmer, F. (2026). *AI-Powered Skill Classification: Mapping Technology Intensity in the German Labor Market*. Fiscal Studies, forthcoming.
+
+## License
+
+This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
