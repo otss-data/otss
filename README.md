@@ -54,7 +54,7 @@ The resulting OTSS values reflect **observed skill requirements** in occupations
 - **`headcount_2023`**  
   Number of employed workers in the occupation in 2023.
 
-Employment counts are derived from German administrative employment records (IAB Employment History) and refer to **regular employment**, defined as individuals aged **18–65** in **socially insured employment** (Personengruppe 101: sozialversicherungspflichtig Beschäftigte ohne besondere Merkmale).  
+Employment counts are derived from German administrative employment records (IAB Employment History) and refer to **regular employment**, defined as individuals aged **16–65** in **socially insured employment** (Personengruppe 101: sozialversicherungspflichtig Beschäftigte ohne besondere Merkmale).  
 For further details on sample construction and exclusions, see the accompanying paper.
 
 ### Occupational Technology Skill Shares (OTSS)
