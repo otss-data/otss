@@ -12,7 +12,8 @@ The main file
 
 reports OTSS values constructed from expert-based occupational skill data (BERUFENET) combined with an AI-powered skill classification pipeline.
 
-Each observation corresponds to a German occupation (KldB 2010), with technology skill shares computed separately for **2012** and **2023**.
+Each observation corresponds to a German occupation (KldB 2010, 3-digit level).  
+The dataset contains **140 occupational observations**, with technology skill shares computed separately for **2012** and **2023**.
 
 The OTSS measure captures the **share of skills within an occupation** that are classified as:
 
@@ -28,12 +29,56 @@ Skill classification is based on a supervised machine-learning model that combin
 
 The resulting OTSS values reflect **observed skill requirements** in occupations rather than forward-looking exposure or automation risk.
 
+
 ## Coverage
 
 - **Geographic scope:** Germany  
 - **Time coverage:** 2012 and 2023  
 - **Occupational classification:** German Classification of Occupations (KldB 2010)  
 - **Skill source:** BERUFENET expert database (Federal Employment Agency)
+
+  
+## Variable description
+
+### Occupational identifiers
+- **`kldb2010_3`**  
+  3-digit code of the German Classification of Occupations (KldB 2010).
+
+- **`kldb2010_title_en`**  
+  English occupation title corresponding to the 3-digit KldB 2010 code.
+
+### Employment
+- **`headcount_2012`**  
+  Number of employed workers in the occupation in 2012.
+
+- **`headcount_2023`**  
+  Number of employed workers in the occupation in 2023.
+
+Employment counts are derived from German administrative employment records and can be used to construct employment-weighted aggregates.
+
+### Occupational Technology Skill Shares (OTSS)
+
+All OTSS variables are expressed as shares and sum to one within each occupation-year (up to rounding).
+
+**2012**
+- **`manual_OTSS_2012`**  
+  Share of skills related to manual technologies.
+
+- **`digital_OTSS_2012`**  
+  Share of skills related to digital technologies.
+
+- **`frontier_OTSS_2012`**  
+  Share of skills related to frontier technologies.
+
+**2023**
+- **`manual_OTSS_2023`**  
+  Share of skills related to manual technologies.
+
+- **`digital_OTSS_2023`**  
+  Share of skills related to digital technologies.
+
+- **`frontier_OTSS_2023`**  
+  Share of skills related to frontier technologies.
 
 ## Intended use
 
@@ -49,4 +94,4 @@ Users can link OTSS to employment, wage, or establishment data at the occupation
 
 If you use this data, please cite:
 
-> Genz, S., Gregory, T., & Lehmer, F. (2026). *AI-Powered Skill Classification: Mapping Technology Intensity in the German Labor Market*. Draft version.
+> Genz, S., Gregory, T., & Lehmer, F. (2026). *AI-Powered Skill Classification: Mapping Technology Intensity in the German Labor Market*. Fiscal Studies, forthcoming.
