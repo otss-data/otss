@@ -4,6 +4,23 @@ This repository provides the data underlying the paper **“AI-Powered Skill Cla
 
 The dataset contains occupation-level measures of technology intensity for the German labor market, distinguishing between **manual**, **digital**, and **frontier** technologies. These measures are referred to as **Occupational Technology Skill Shares (OTSS)**.
 
+
+## Explore the data interactively
+
+An interactive dashboard for exploring OTSS by occupation, technology type, and time is available here:
+
+👉 **Dashboard:** https://otss-data.github.io/otss-dashboard/
+
+The dashboard allows users to:
+- compare OTSS across occupations and years (2012 vs. 2023)
+- switch between employment-weighted and unweighted views
+- analyze the distribution of manual, digital, and frontier technologies
+- explore relationships with occupational employment growth
+- download occupation-level data or export results
+
+**Use the dashboard for interactive exploration and the repository for data access, documentation, and replication.**
+
+
 ## Data description
 
 The main file
