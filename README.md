@@ -1,6 +1,8 @@
 # Occupational Technology Skill Shares (OTSS), Germany 2012–2023
 
-This repository provides the data underlying the paper **"AI-Powered Skill Classification: Mapping Technology Intensity in the German Labor Market"** by Genz, Gregory, and Lehmer (2026), **Fiscal Studies (forthcoming)**.
+This repository provides the data underlying the paper **"AI-Powered Skill Classification: Mapping Technology Intensity in the German Labor Market"** by Genz, Gregory, and Lehmer (2026), published open access in **Fiscal Studies**.
+
+📄 **Paper:** https://onlinelibrary.wiley.com/doi/10.1111/1475-5890.70020
 
 The dataset contains occupation-level measures of technology intensity for the German labor market, distinguishing between **manual**, **digital**, and **frontier** technologies. These measures are referred to as **Occupational Technology Skill Shares (OTSS)**.
 
